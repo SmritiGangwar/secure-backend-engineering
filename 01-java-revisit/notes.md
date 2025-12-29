@@ -72,10 +72,13 @@ To get sorted Values we can use TreeSet:
 
 ```for(int n: nums){
     s.out(n)
-}```
+}
+```
 
 OR we can use Iterator:
-```Iterator<Integer> values = nums.iterator();
+
+```
+Iterator<Integer> values = nums.iterator();
 While(values.hasNext()){
     s.out(values.next());
 }
