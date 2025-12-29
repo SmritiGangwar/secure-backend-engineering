@@ -28,9 +28,9 @@ public static void main(String args[]){
 
 ### #ARRAYLIST 
 
-Iterables -> Collections -> List : ArrayList, LinkedList
-                         -> Queue : Dequeue
-                         -> Set : HashSet, HashTree, Linked HashSet
+Iterables -> Collections -> List : ArrayList, LinkedList <br>
+                         -> Queue : Dequeue <br>
+                         -> Set : HashSet, HashTree, Linked HashSet <br>
 
 
 ArrayList Declaration : `List<Integer> nums = new ArrayList<Integer>();`
