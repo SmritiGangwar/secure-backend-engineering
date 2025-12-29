@@ -7,6 +7,7 @@ Array Declaration : `int arr[] = new int[size];
 
 To use a Class as an Array :
 
+ ```
  Class Student{                      
     int rollno;                        
     String name;                       
@@ -18,7 +19,8 @@ public static void main(String args[]){
     s1.name = 'Jay';
                                         
     #Similarly more class objects can be created. 
-}   
+}
+```   
 
 #Array Object Declaratio : ` Student students[] = new Student[size];`<br>
  then store object ref. as: `students[0] = s1;
@@ -29,8 +31,8 @@ public static void main(String args[]){
 ### #ARRAYLIST 
 
 Iterables -> Collections -> List : ArrayList, LinkedList <br>
-&emsp                    -> Queue : Dequeue <br>
-&emsp                    -> Set : HashSet, HashTree, Linked HashSet <br>
+&emsp;                   -> Queue : Dequeue <br>
+&emsp;                   -> Set : HashSet, HashTree, Linked HashSet <br>
 
 
 ArrayList Declaration : `List<Integer> nums = new ArrayList<Integer>();`
