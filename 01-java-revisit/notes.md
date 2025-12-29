@@ -20,9 +20,9 @@ public static void main(String args[]){
     #Similarly more class objects can be created. 
 }   
 
-#Array Object Declaratio : ` Student students[] = new Student[size];`
+#Array Object Declaratio : ` Student students[] = new Student[size];`<br>
  then store object ref. as: `students[0] = s1;
-                            students[1] = s2;`
+                            students[1] = s2;`<br>
 #To print the data :    `system.out.println(students[i].name + students[i].rollno);`
 
 
@@ -35,16 +35,16 @@ Iterables -> Collections -> List : ArrayList, LinkedList
 
 ArrayList Declaration : `List<Integer> nums = new ArrayList<Integer>();`
 
-Collections nums new ArrayList();
-nums.add(3);    #currenlty these are objects
-nums.add(5); 
+Collections nums new ArrayList();<br>
+`nums.add(3);    #currenlty these are objects`
+`nums.add(5);` 
 
 for(Object n: nums){
     int num = (int) n;  #typecasting
     s.out(num*2);
 }
 
-Collection creates Objects and does not support index value, that is why they need to be typecasted into desired types.
+Collection creates Objects and does not support index value, that is why they need to be typecasted into desired types.<br>
 Therefore, we use LIST<> as it supports indexing and does not require typecasting, instead we can mention Wrapper class during declaration.
 
 `List<Integer> nums = new ArrayList<Integer>();`
