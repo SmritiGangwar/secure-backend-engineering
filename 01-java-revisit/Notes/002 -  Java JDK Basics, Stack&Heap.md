@@ -1,12 +1,12 @@
-#JAVA BASICS
+#### #JAVA BASICS
 
 
-Java File -->  Compiler --> ByteCode --> Interpret --> Machine Code
-(.java)         [javac]     (.class)      [JVM]         (in binary format)
+Java File -->  Compiler --> ByteCode --> Interpret -->  Machine Code
+(.java)         [javac]     (.class)      [JVM]        (in binary format)
 
 [JDK -Tools & Libraries [JRE-Runtime env. [JVM]]]
 
-#Stack & Heap Memory
+#### #Stack & Heap Memory
 
 Stack : Stores local variables
         Stores Method call info
