@@ -8,7 +8,7 @@ We can store the result of if-else block using this, or can use it without stori
 
 ```
 int num = 1;
-switch (<value that matches with case>)         #After Java5 we can use string values as case matches as well.
+switch (num <value that matches with case>)         #After Java5 we can use string values as case matches as well.
     {   case 2 : 
                 <Statement Block>;
                 break;
