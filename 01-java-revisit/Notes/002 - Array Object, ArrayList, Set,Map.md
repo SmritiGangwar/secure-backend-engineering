@@ -22,10 +22,10 @@ public static void main(String args[]){
 }
 ```   
 
-#Array Object Declaratio : ` Student students[] = new Student[size];`<br>
+**#Array Object Declaration** : ` Student students[] = new Student[size];`<br>
  then store object ref. as: `students[0] = s1;` <br>
                             `students[1] = s2;`<br>
-#To print the data :    `system.out.println(students[i].name + students[i].rollno);`
+**#To print the data :**   `system.out.println(students[i].name + students[i].rollno);`
 
 
 ### #ARRAYLIST 
@@ -35,7 +35,7 @@ Iterables -> Collections -> List : ArrayList, LinkedList <br>
 &emsp;                   -> Set : HashSet, HashTree, Linked HashSet <br>
 
 
-ArrayList Declaration : `List<Integer> nums = new ArrayList<Integer>();`
+**ArrayList Declaration :** `List<Integer> nums = new ArrayList<Integer>();`
 
 Collections nums new ArrayList();<br>
 ```
@@ -68,19 +68,19 @@ OR
 Does not support Index Values
 Returns Unique Values only.
 
-`Set<Integer> nums = new HashSet<Integer>();`
+`Set<Integer> nums = new HashSet<Integer>();`    #HashSet is a class that implements Set.
 
-To get sorted Values we can use TreeSet:
+To get sorted Values we can use **TreeSet**:
 `Set<Integer> nums = new TreeSet<Integer>();`
 
-
+For printing Set values :
 ```
 for(int n: nums){
     s.out(n)
 }
 ```
 
-OR we can use Iterator:
+OR we can use **Iterator**:
 
 ```
 Iterator<Integer> values = nums.iterator();
@@ -89,4 +89,21 @@ While(values.hasNext()){
 }
 ```
 
+### #MAP
+Key-Value pairs
+- It is an Interface not a Collection.
+- Key cannot be repeated, if same key is used, its values would be the last provided one.
 
+  `Map<String,Integer> students = new HashMap<>();`
+- students.**put**("hi",10) : To insert K-V pairs.
+- students.**get**(key) : to get value of a key.
+- students.**keySet()** : will return set of all keys.
+
+To print :
+simple `s.out(students)` : {hi=10,,,,}
+OR
+```
+for(String key: students.keySet()){
+    s.out(key + students.get(key)
+}
+```
