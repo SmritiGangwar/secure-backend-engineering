@@ -95,9 +95,10 @@ Key-Value pairs
 - Key cannot be repeated, if same key is used, its values would be the last provided one.
 
   `Map<String,Integer> students = new HashMap<>();`
-- students.**put**("hi",10) : To insert K-V pairs.
-- students.**get**(key) : to get value of a key.
-- students.**keySet()** : will return set of all keys.
+- students.*put*("hi",10) : To insert K-V pairs.
+- students.*get*(key) : to get value of a key.
+- students.*keySet()* : will return set of all keys.
+- students.*containsKey(value)* : will return true if value exits.
 
 To print :
 simple `s.out(students)` : {hi=10,,,,}
