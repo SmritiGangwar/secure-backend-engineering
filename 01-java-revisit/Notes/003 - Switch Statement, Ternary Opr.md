@@ -2,7 +2,7 @@
 
 We can store the result of if-else block using this, or can use it without storing as well.
 
-`int result = <Condition> ? <if True Return Statement> : <if False Return Statement> ; `
+`int result = <Condition> ? <Return True Statement> : <Return False Statement> ; `
 
 #### #Switch-Satement
 
