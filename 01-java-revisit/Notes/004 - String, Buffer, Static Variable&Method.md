@@ -1,6 +1,6 @@
 
 ### #String 
-by default IMMUTABLE
+by default IMMUTABLE <br>
 for Mutable use we can use : **_StringBuffer_**
 
 - StringBuffer : Threat Safe
