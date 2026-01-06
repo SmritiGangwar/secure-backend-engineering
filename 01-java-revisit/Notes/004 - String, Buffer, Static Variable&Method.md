@@ -39,7 +39,7 @@ Initially, declaration used to be : _String name = new String("Hello");_
 - [ ] .stripTrailing()                    &nbsp;&nbsp;&nbsp;// removes spaces from end
 
 int x = 10;
-- [ ] String s = **String.valueOf(x)**;     //Converting to int
+- [ ] String s = **String.valueOf(x)**;     //Converting int to String
 - [ ] String s = **Integer.toString(x)**;
 
 
