@@ -71,7 +71,7 @@ It will cause a Deadlock situation.
 
 ## #Static Block - called only once
 > When we create any class Object, it always calls the default constructor of it. But, if the value of static variable is already initialized once inside that constructor,
-> it will be unnecessary everytime an object will create. It will again initialize the variable as constructor will be called.<br>
+> it will be unnecessary everytime an object will create. It will again initialize the variable as constructor will be called.
 > All the objects will have same variable values for static variables.
 
 ```java
@@ -112,7 +112,7 @@ public class StaticBlock {
 
 ```
 
-##### What happens when an Object is Created?
+### What happens when an Object is Created?
 1. Class Loads
 2. Objects are instantiated
 
