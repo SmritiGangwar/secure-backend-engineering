@@ -87,22 +87,26 @@ In java, Every constructor has one hidden method mentioned '**super()**'.
 > and it is printing "in A" at first line of output. Then it will run the remaining statements under the super() call;
 
 ```java
-public A(){                             //Step 3 : As no param mentioned in super() of subclass constructor,
-    super();                                        //this default constructor was called
-    System.out.println("in A");         //Step 4: prints "in A"            
-    // class A does not have super-class so it will return back to Step 2, and remaining statements will execute.
+class A{
+    public A(){                             //Step 3 : As no param mentioned in super() of subclass constructor,
+        super();                                        //this default constructor was called
+        System.out.println("in A");         //Step 4: prints "in A"            
+        // class A does not have super-class so it will return back to Step 2, and remaining statements will execute.
+    }
+    public A(int n){
+        super();
+        System.out.println("in A int");
+    }
 }
-public A(int n){
-    super();
-    System.out.println("in A int");
-}
-public B(){
-    super();
-    System.out.println("in B");
-}
-public B(int n){
-    super();                                //Step 2 : it will call for constructor of A      
-    System.out.println("in B int");         //Step 5 : prints "in B int". end.
+class B extends A{
+    public B(){
+        super();
+        System.out.println("in B");
+    }
+    public B(int n){
+        super();                                //Step 2 : it will call for constructor of A      
+        System.out.println("in B int");         //Step 5 : prints "in B int". end.
+    }
 }
 public class Demo{
     public static void main(String[] args) {
@@ -114,22 +118,26 @@ public class Demo{
 
 So, what if we want to call the parametrized constructor of SuperClass as well? : We will parametrize the super() call inside the constructor of SUBclass Constructor.
 ```java
-public A(){                             
-    super();                                        
-    System.out.println("in A");                     
-    
+class A{
+    public A(){
+        super();
+        System.out.println("in A");
+
+    }
+    public A(int n){    //CALLED
+        super();
+        System.out.println("in A int");
+    }
 }
-public A(int n){    //CALLED
-    super();
-    System.out.println("in A int");
-}
-public B(){
-    super();
-    System.out.println("in B");
-}
-public B(int n){
-    super(10);                                //Step 2 : it will call for constructor of A(10);      
-    System.out.println("in B int");         
+class B extends A{
+    public B(){
+        super();
+        System.out.println("in B");
+    }
+    public B(int n){
+        super(10);                                //Step 2 : it will call for constructor of A(10);      
+        System.out.println("in B int");
+    }
 }
 public class Demo{
     public static void main(String[] args) {
@@ -151,22 +159,27 @@ NOW, What if we want to execute boht/all the constructors of one class? Here com
 
 
 ```java
-public A(){                                //Step 6; 
-    super();                                           
-    System.out.println("in A");            //Step 7 : prints, go to Step 5         
-    
+class A {
+    public A() {                                //Step 6;
+        super();
+        System.out.println("in A");            //Step 7 : prints, go to Step 5
+
+    }
+
+    public A(int n) {
+        super();
+        System.out.println("in A int");
+    }
 }
-public A(int n){                            
-    super();
-    System.out.println("in A int");
-}
-public B(){                                //Step 4 : it was not called during obj creation, but by this()
-    super();                               //Step 5 : call Const. of its SupperClass that is A
-    System.out.println("in B");            //Step 8 : prints, go to Step 3
-}
-public B(int n){                           //Step 2 
-    this();                                //Step 3 : it will call for constructor of same class      
-    System.out.println("in B int");        //Step 9 : prints. end.
+class B extends A{
+    public B(){                                //Step 4 : it was not called during obj creation, but by this()
+        super();                               //Step 5 : call Const. of its SupperClass that is A
+        System.out.println("in B");            //Step 8 : prints, go to Step 3
+    }
+    public B(int n){                           //Step 2
+        this();                                //Step 3 : it will call for constructor of same class
+        System.out.println("in B int");        //Step 9 : prints. end.
+    }
 }
 public class Demo{
     public static void main(String[] args) {
