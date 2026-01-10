@@ -161,9 +161,10 @@ public class Demo{
 ```
 OUTPUT : in A int
          in B int
-Keep in mind that super() methods are already present inside the consturctors, 
-we do not need to explicitly mention them, except for Parametrized Constructors of SuperClass.
 ```
+>[!NOTE]
+>Keep in mind that super() methods are already present inside the constructors,
+>we do not need to explicitly mention them, except for Parametrized Constructors of SuperClass.
 
 ### #THIS( )
 NOW, What if we want to execute boht/all the constructors of one class? Here comes the concept of 'this()' method.
