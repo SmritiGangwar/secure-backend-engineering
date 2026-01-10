@@ -28,7 +28,7 @@ Heap : Stores Dynamic allocated data
 Same name of the method but - different number of params.
 &emsp                    OR - different datatype mentioned in method call.
 
-```
+```java
 public int add(int n1, int n2){
     return n1+n2;
    }
@@ -38,13 +38,13 @@ public int add(int n1, int n2, int n3){
    }
 ```
 OR
-```
+```java
    
 public double add(double n1, double n2){
     return n1+n2;
    }
 ```
-But cannot use the same method with different return type and different method call dataType:
+But cannot use the same method with _different return type_ and different method call _dataType_:
 ```
 public double add(int n1, int n2){}
 ```
