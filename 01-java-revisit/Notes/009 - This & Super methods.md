@@ -128,7 +128,7 @@ public class Demo{
 ```
 
 So, what if we want to call the parametrized constructor of SuperClass-A as well? 
->For that, we need parametrize the super() call, inside the constructor of SUBclass-B.
+>For that, we need to parametrize the super() call, inside the constructor of SUBclass-B.
 ```java
 class A{
     public A(){
@@ -163,7 +163,7 @@ OUTPUT : in A int
          in B int
 ```
 >[!NOTE]
->Keep in mind that super() methods are already present inside the constructors,
+>Keep in mind that super() methods are already present inside the constructors,<br>
 >we do not need to explicitly mention them, except for Parametrized Constructors of SuperClass.
 
 ### #THIS( )
