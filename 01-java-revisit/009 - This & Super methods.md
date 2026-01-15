@@ -6,13 +6,13 @@
 
 
 ```java
-class A{    //SUPER-class Or PARENT-class
+class A{                            //SUPER-class Or PARENT-class
     public A(){                     //CALLED
         System.out.println("in A");
     }
 }
 
-class B extends A{          //B : SUB-class or CHILD-class
+class B extends A{                  //B : SUB-class or CHILD-class
     public B(){                     //CALLED
         System.out.println("in B");
     }
