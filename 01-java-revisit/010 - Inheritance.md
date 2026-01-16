@@ -55,10 +55,12 @@ Types Of Inheritance
 1. Single Level
 2. Multi Level
 3. Hierarchical 
+
 ![](img.png)
 
 > Multiple Inheritance does not exist. If we try `class C extends A,B` or `class C extends A extends B` it will not work. 
 > As it will create an Ambiguity Problem
+
 ![Ambiguity](img_1.png)
 
 In Hierarchical : Multiple subclasses inherit from a single parent class.
