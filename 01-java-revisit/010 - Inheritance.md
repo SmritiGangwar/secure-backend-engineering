@@ -30,7 +30,7 @@ But what if we need to update Calculator class and add more functions like Multi
 
 -Here comes the concept of Inheritance
 ```java
-public class AdvCalculator extends Calculator{              //Child Class
+public class AdvCalculator extends Calculator{               //Child Class
     public int multiply(int a, int b){
         return a*b;
     }
