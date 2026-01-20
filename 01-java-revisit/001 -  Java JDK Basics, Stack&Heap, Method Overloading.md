@@ -1,4 +1,4 @@
-#### #JAVA BASICS
+## JAVA BASICS
 
 
 Java File -->  Compiler --> ByteCode --> Interpret -->  Machine Code <br>
@@ -13,7 +13,7 @@ Java File -->  Compiler --> ByteCode --> Interpret -->  Machine Code <br>
 &emsp    - like a Calculator, a computer, etc.
 **Method -** Describes the behavior of the component
 
-#### #Stack & Heap Memory
+## Stack & Heap Memory
 
 Stack : Stores local variables
         Stores Method call info
@@ -24,7 +24,7 @@ Heap : Stores Dynamic allocated data
        Stores actual objects
        String pool
 
-### #Method OverLoading 
+## Method OverLoading 
 Same name of the method but - different number of params.
 &emsp                    OR - different datatype mentioned in method call.
 

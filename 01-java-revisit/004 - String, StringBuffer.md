@@ -1,5 +1,5 @@
 
-## #String 
+## String 
 by default IMMUTABLE <br>
 for Mutable use we can use : **_StringBuffer_**
 
@@ -43,7 +43,7 @@ int x = 10;
 - [ ] String s = **Integer.toString(x)**;
 
 
-## #String Buffer
+## String Buffer
 
 `StringBuffer sb = new StringBuffer()`
 Stores space for 16 extra characters known as Buffer.

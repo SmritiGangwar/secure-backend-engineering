@@ -1,11 +1,11 @@
 
-### #Variables
+### Variables
 
-Every object created will have diff values for these 2 variables.<br>
+Every object created will have diff values for variables.<br>
 #INSTANCE Variable : Declared OUTSIDE the METHOD.<br>
 #LOCAL Variable : Declared INSIDE the METHOD.<br>
 
-## #Static Variable
+## Static Variable
 The values of static variables are same/shared in all objects. So, we can call these using by class name itself, without creating an object.
 
 ```java
@@ -36,7 +36,7 @@ public class Main{
 }
 ```
 
-## #Static Method
+## Static Method
 Just like static variables, we can call static methods directly by Classname:
 
 ```java
@@ -69,7 +69,7 @@ But, As we know main() is the starting point of code execution, so how can we cr
 It will cause a Deadlock situation.
 
 
-## #Static Block - called only once
+## Static Block - called only once
 > When we create any class Object, it always calls the default constructor of it. But, if the value of static variable is already initialized once inside that constructor,
 > it will be unnecessary everytime an object will create. It will again initialize the variable as constructor will be called.
 > All the objects will have same variable values for static variables.

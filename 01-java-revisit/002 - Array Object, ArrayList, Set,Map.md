@@ -1,6 +1,6 @@
 **Day 1** - 
 
-#### #ARRAY OBJECT
+## ARRAY OBJECT
 
 Array Declaration : `int arr[] = new int[size];
                     arr[0] = 4;`
@@ -28,7 +28,7 @@ public static void main(String args[]){
 **#To print the data :**   `system.out.println(students[i].name + students[i].rollno);`
 
 
-### #ARRAYLIST 
+## ARRAYLIST 
 
 Iterables -> Collections -> List : ArrayList, LinkedList <br>
 &emsp;                   -> Queue : Dequeue <br>
@@ -64,7 +64,7 @@ OR
 
 
 
-### #SET
+## SET
 Does not support Index Values
 Returns Unique Values only.
 
@@ -89,7 +89,7 @@ While(values.hasNext()){
 }
 ```
 
-### #MAP
+## MAP
 Key-Value pairs
 - It is an Interface not a Collection.
 - Key cannot be repeated, if same key is used, its values would be the last provided one.

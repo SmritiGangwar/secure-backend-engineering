@@ -1,10 +1,10 @@
-#### #Ternary Operator :
+### Ternary Operator :
 
 We can store the result of if-else block using this, or can use it without storing as well.
 
 `int result = <Condition> ? <Return True Statement> : <Return False Statement> ; `
 
-#### #Switch-Satement
+## Switch-Statement
 
 ```
 int num = 1;
