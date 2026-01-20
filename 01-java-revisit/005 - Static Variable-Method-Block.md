@@ -116,3 +116,8 @@ public class StaticBlock {
 1. Class Loads
 2. Objects are instantiated
 
+Class loads only once. In JVM there is special area - "Class Loader", it has all the loaded class.  
+Static block gets called when class is called i.e. only once.
+
+Class can nvr be loaded without creating an object, if we want to do so,   
+there is one method - `Class.forName("<className>");` It throws 'classNotFoundException'
