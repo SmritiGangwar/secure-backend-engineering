@@ -1,5 +1,5 @@
 ## Encapsulation
-Encapsulation/Wrapping data and methods/code-blocks into a single unit. 
+Encapsulating/Wrapping data and methods/code-blocks into a single unit. 
 ```java
 class Human
 {
@@ -23,6 +23,7 @@ public class Main{
 ```
 
 Now if we also want to change or assign new values to private variables, we will use more methods. 
+
 Here comes the whole concept of **Getters and Setters**.
 
 ```java
