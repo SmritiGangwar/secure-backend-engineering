@@ -7,32 +7,35 @@ Array Declaration : `int arr[] = new int[size];
 
 To use a Class as an Array :
 
- ```
- Class Student{                      
+ ```java
+class Student{                      
     int rollno;                        
     String name;                       
-}    
-public static void main(String args[]){
+}  
+
+public static void main(String args[]) {
     Student s1 = new Student();
-    #Class object is created
+    //Class object is created
     s1.rollno = 67;
     s1.name = 'Jay';
-                                        
-    #Similarly more class objects can be created. 
+
+    //Similarly more class objects can be created.
 }
+
 ```   
 
 **#Array Object Declaration** : ` Student students[] = new Student[size];`<br>
- then store object ref. as: `students[0] = s1;` <br>
-                            `students[1] = s2;`<br>
+ then store object ref. as: 
+`students[0] = s1;` <br>
+`students[1] = s2;`<br>
 **#To print the data :**   `system.out.println(students[i].name + students[i].rollno);`
 
 
 ## ARRAYLIST 
 
 Iterables -> Collections -> List : ArrayList, LinkedList <br>
-&emsp;                   -> Queue : Dequeue <br>
-&emsp;                   -> Set : HashSet, HashTree, Linked HashSet <br>
+&emsp;&emsp;&emsp;       -> Queue : Dequeue <br>
+&emsp;&emsp;&emsp;       -> Set : HashSet, HashTree, Linked HashSet <br>
 
 
 **ArrayList Declaration :** `List<Integer> nums = new ArrayList<Integer>();`
@@ -50,7 +53,7 @@ for(Object n: nums){
 ```
 
 Collection creates Objects and does not support index value, that is why they need to be typecasted into desired types.<br>
-Therefore, we use LIST<> as it supports indexing and does not require typecasting, instead we can mention Wrapper class during declaration.
+Therefore, we use **_LIST<>_** as it supports indexing and does not require typecasting, instead we can mention Wrapper class during declaration.
 
 `List<Integer> nums = new ArrayList<Integer>();`
 
@@ -58,7 +61,7 @@ Therefore, we use LIST<> as it supports indexing and does not require typecastin
     s.out(n);
 }`
 
-OR
+OR  
 `nums.get(indexValue);`<br>
 `nums.indexOf(element);`
 
