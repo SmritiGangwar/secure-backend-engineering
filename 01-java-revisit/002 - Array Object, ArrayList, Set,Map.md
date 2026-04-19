@@ -2,8 +2,12 @@
 
 ## ARRAY OBJECT
 
-Array Declaration : `int arr[] = new int[size];
-                    arr[0] = 4;`
+Array Declaration : ```java int arr[] = new int[size];
+
+                    arr[0] = 4;
+                    int arr[] = {1,2,3,4,5};
+                    ```
+                    
 
 To use a Class as an Array :
 
